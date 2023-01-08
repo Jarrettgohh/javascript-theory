@@ -1,3 +1,7 @@
+//
+// Equality operator (===) only returns true if the objects reference the same object
+//
+
 const obj1 = {
   test: "jarrett",
 };
