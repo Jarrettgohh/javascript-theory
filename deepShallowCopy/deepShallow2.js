@@ -27,7 +27,7 @@ const obj3 = obj1; // shallow copy - returns true for Object.is()
 console.log(obj1 === obj2); // false
 console.log(Object.is(obj1, obj2)); // false
 console.log(Object.is(obj1, obj3)); // true
-console.log(obj1 == obj3); // true
+console.log(obj1 === obj3); // true
 
 obj3.test =
   "this would change for the original obj1 too, as its a shallow copy";
